@@ -47,12 +47,12 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Deep Learning
+    web_url: https://github.com/topics/deep-learning
+    image_url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Anatomy-1751201_1280.png
 
-  - name: Web design
+  - name: Robotics
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: COVID-19
+    web_url: https://github.com/topics/covid-19
+    image_url: https://raw.githubusercontent.com/github/explore/af16e074f93c080d7b283815787283cab0e9414b/topics/covid-19/covid-19.png
