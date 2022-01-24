@@ -33,26 +33,41 @@ social_media:
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-  instagram: thesecondsonofman
-  keybase: mahi
+  # youtube: your_username
+  scholar: vAOw6aQAAAAJ
   linkedin: nshafiul
+  twitter: notmahi
+  keybase: mahi
+  instagram: thesecondsonofman
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  twitter: notmahi
   # unsplash: your_username
   # vk: your_username
   website: http://mahis.life
-  # youtube: your_username
 
 topics:
   - name: Deep Learning
     web_url: https://github.com/topics/deep-learning
-    image_url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Anatomy-1751201_1280.png
+    image_url: /assets/images/icons8-deep-learning-64.png
 
   - name: Robotics
+    web_url: https://lerrelpinto.com
+    image_url: /assets/images/icons8-robot-120.png
 
-  - name: COVID-19
-    web_url: https://github.com/topics/covid-19
-    image_url: https://raw.githubusercontent.com/github/explore/af16e074f93c080d7b283815787283cab0e9414b/topics/covid-19/covid-19.png
+  - name: Data Visualization
+    web_url: https://notmahi.github.io/d3-book-timeline/
+    image_url: /assets/images/icons8-data-visualization-64.png
+
+  - name: Reading
+    web_url: https://www.goodreads.com/shafiullah
+    image_url: /assets/images/icons8-books-64.png
+
+  - name: Photography and Writing
+    web_url: https://thetech.com/photographers/mahi-shafiullah
+    image_url: /assets/images/icons8-photography-64.png
+
+  - name: Philosophy
+    web_url: https://plato.stanford.edu/
+    image_url: /assets/images/icons8-philosophy-100.png

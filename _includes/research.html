@@ -1,0 +1,22 @@
+<h2 {% if site.style=='dark' %}class="text-white" {% endif %}>My Research</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">My recent research projects,
+    both at NYU and beyond.
+</p>
+<script type="text/javascript">
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        console.log(e.hidden);
+        if (e.hidden)
+            e.hidden = false;
+        else
+            e.hidden = true;
+    }
+</script>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    {% for research in site.categories.research limit: 12 %}
+    {{ forloop.index }}
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+        {% include research-card.html %}
+    </div>
+    {% endfor %}
+</div>
