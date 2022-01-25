@@ -1,25 +1,26 @@
 <div
   class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
   <div class="d-flex flex-justify-between flex-items-start mb-1">
-    <h1 class="f4 lh-condensed mb-1">
+    <h1 class="f3-light mb-1">
       <a href={% if research.show_blog_link %}"{{ site.baseurl }}{{ research.url }}"{% else %}""{% endif %}>
         {{ research.title }}
       </a>
     </h1>
   </div>
   {{% if research.venue %}}
-  <div class="text-gray mb-2 ws-normal">{{ research.venue }}</div>
+  <div class="text-gray mb-2 f4-light text-italic">{{ research.venue }}</div>
   {{% endif %}}
   <div class="d-flex flex-justify-between flex-items-start mb-1">
-    <h2 class="f4 lh-condensed mb-1">
+    <p class="f4 text-light ws-normal mb-1">
       {{ research.authors }}
-    </h2>
+    </p>
   </div>
   <div class="BtnGroup d-block mb-1">
     <button class="BtnGroup-item btn-outline btn" type="button"
       onclick="toggle_visibility('toggle-abstract-{{ forloop.index }}')">Abstract</button>
     {% if research.paper_url %}
-    <a class="BtnGroup-item  btn-outline btn" href="{{ research.paper_url }}" role="button" target="_blank">Paper</a>
+    <a class="BtnGroup-item  btn-outline btn text-light" href="{{ research.paper_url }}" role="button"
+      target="_blank">Paper</a>
     {% endif %}
     {% if research.code_url %}
     <a class="BtnGroup-item  btn-outline btn" href="{{ research.code_url }}" role="button" target="_blank">Code</a>
@@ -30,8 +31,9 @@
     </a>
     {% endif %}
   </div>
-  <div hidden class="d-flex flex-justify-between flex-items-start mb-1" id="toggle-abstract-{{ forloop.index }}">
-    <p class="f4 mb-1">
+  <div hidden class="d-flex flex-justify-between flex-items-start mb-1 ws-normal f4"
+    id="toggle-abstract-{{ forloop.index }}">
+    <p>
       {{ research.content }}
     </p>
   </div>

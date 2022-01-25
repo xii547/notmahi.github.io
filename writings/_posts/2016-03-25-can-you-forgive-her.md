@@ -4,14 +4,13 @@ layout: post
 tags: play, hass, mit, theater, arts
 description: A short reflection 
 title: "Can You Forgive Her?"
+header_image: https://bostonglobe-prod.cdn.arcpublishing.com/resizer/xtmpGqbNZVnmLnT8AjLn6gyex1w=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/OBIAPIHWTMI6LAKZ4BU54ZQPCI.jpg
 ---
 
 Today, I went to watch a play, and it was fantastic!
 
-The production was the world premiere of the play “Can You Forgive Her”, by Huntington Theater Company. It was written by playwright Gina Gionfriddo and directed by Peter DuBois.
+The production was the world premiere of the play “Can You Forgive Her”, by Huntington Theater Company. It was written by playwright Gina Gionfriddo and directed by Peter DuBois.<!--break-->
 The play consists of five main characters, Graham, Miranda, Tanya, David and a cameo from the character Sateesh, mostly discussed over the play as only “The Indian”. The whole play takes place in only a single stage, at a single stretch of time, and all the characters enter and exit the stage in their own pace, in a real-time setting.
-
-<!--break-->
 
 The play opens at Graham’s place, a New Jersey beach town – on Halloween night (which we can also deduce from a few carved pumpkins on the set). We can see Graham and Miranda in the set, sitting together, talking about a scene that just appeared at a bar. From their conversation, we get to know that both Miranda and Graham were at a bar just before this scene. Miranda was at the bar with Sateesh, and another couple, where Sateesh turned violent and threatened to murder her. To keep Miranda safe, Graham has brought her to his house, or rather, his mother’s house, and this sets the premise for the play to build on.
 

@@ -4,7 +4,7 @@
 <div class="container-lg py-6 p-responsive text-center">
   {% include masthead.html metadata=true %}
 
-  <div {% if site.style=='dark' %}class="text-white" {% endif %}>
+  <div class="{% if site.style=='dark' %}text-white{% endif %} f2-light">
     {{ content }}
   </div>
 
@@ -35,7 +35,7 @@
     site.style=='dark' %}style="background-color: #2f363d !important" {% endif %}>
     <div class="mx-auto" style="max-width: 900px;">
       {% unless content == "" %}
-      <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
+      <div class="f3-light {% if site.style == 'dark' %}text-white{% endif %} mb-6">
         {{ content }}
       </div>
       {% endunless %}

@@ -15,9 +15,14 @@
     <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if
         site.style=='dark' %}style="background-color: #2f363d !important" {% endif %}>
         <div class="mx-auto" style="max-width: 900px;">
-            <h2 {% if site.style=='dark' %}class="text-white" {% endif %}>My Writings</h2>
+            <p class="f3-light"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}"
+                    class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{%
+                    octicon
+                    chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home
+                    %}Home</a></p>
+            <h2 class="{% if site.style=='dark' %}text-white{% endif %} f00-light mb-4">Writings</h2>
             {% unless content == "" %}
-            <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+            <p class="f3-light mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
                 {{ content }}
             </p>
             {% endunless %}

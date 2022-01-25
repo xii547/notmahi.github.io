@@ -55,24 +55,24 @@ social_media:
 topics:
   - name: Deep Learning
     web_url: https://github.com/topics/deep-learning
-    image_url: /assets/images/icons8-deep-learning-64.png
+    image_url: /assets/images/icons/icons8-deep-learning-64.png
 
   - name: Robotics
     web_url: https://lerrelpinto.com
-    image_url: /assets/images/icons8-robot-120.png
+    image_url: /assets/images/icons/icons8-robot-120.png
 
   - name: Data Visualization
     web_url: https://notmahi.github.io/d3-book-timeline/
-    image_url: /assets/images/icons8-data-visualization-64.png
+    image_url: /assets/images/icons/icons8-data-visualization-64.png
 
   - name: Reading
     web_url: https://www.goodreads.com/shafiullah
-    image_url: /assets/images/icons8-books-64.png
+    image_url: /assets/images/icons/icons8-books-64.png
 
   - name: Photography and Writing
     web_url: https://thetech.com/photographers/mahi-shafiullah
-    image_url: /assets/images/icons8-photography-64.png
+    image_url: /assets/images/icons/icons8-photography-64.png
 
   - name: Philosophy
     web_url: https://plato.stanford.edu/
-    image_url: /assets/images/icons8-philosophy-100.png
+    image_url: /assets/images/icons/icons8-philosophy-100.png

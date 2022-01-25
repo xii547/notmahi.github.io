@@ -1,5 +1,6 @@
-<h2 {% if site.style=='dark' %}class="text-white" {% endif %}>My Github Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">GitHub repositories that I've
+<h2 class="{% if site.style=='dark' %}text-white{% endif %} f1-light">My Github Projects</h2>
+<p class="f3-light mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">GitHub repositories that
+  I've
   built.</p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   {% if site.projects.sort_by == 'stars' %}
