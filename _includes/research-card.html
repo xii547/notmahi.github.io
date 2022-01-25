@@ -1,7 +1,7 @@
 <div
-  class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
+  class="height-full lh-condensed text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
   <div class="d-flex flex-justify-between flex-items-start mb-1">
-    <h1 class="f3-light mb-1">
+    <h1 class="f3 text-bold mb-1">
       <a href={% if research.show_blog_link %}"{{ site.baseurl }}{{ research.url }}"{% else %}""{% endif %}>
         {{ research.title }}
       </a>
@@ -31,8 +31,7 @@
     </a>
     {% endif %}
   </div>
-  <div hidden class="d-flex flex-justify-between flex-items-start mb-1 ws-normal f4"
-    id="toggle-abstract-{{ forloop.index }}">
+  <div hidden class="lh-default mb-1 ws-normal f4" id="toggle-abstract-{{ forloop.index }}">
     <p>
       {{ research.content }}
     </p>
