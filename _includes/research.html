@@ -5,11 +5,7 @@
 <script type="text/javascript">
     function toggle_visibility(id) {
         var e = document.getElementById(id);
-        console.log(e.hidden);
-        if (e.hidden)
-            e.hidden = false;
-        else
-            e.hidden = true;
+        e.hidden = !e.hidden;
     }
 </script>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
